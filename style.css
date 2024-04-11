@@ -7,6 +7,11 @@ coloque nas sessões indicadas*/
     /*Se esforce para trabalhar com variáveis, é uma dica profissional valiosa*/
    --cor-de-fundo: #F5F5F5;
    --cor-de-link: #000;
+   /*cores do projeto 
+   fundo:FFE6E6
+   links: AD88C6
+   cor de fundo 2: E1AFD1
+   roxo mais escuro 7469B6 ver onde por  */
 }
 
 body {
@@ -41,12 +46,29 @@ https://en.bem.info/methodology/quick-start/*/
 /*Sessão Menu*/
 
 section.menu{
+    padding: 32px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    
+}
 
+.menu header{
+    display: flex;
+    align-items: center;
+    gap: 7px
+}
+
+.menu__list{
+    display: flex;
+    gap: 15px;
+    color: ;
 }
 
 /*Sessão Title*/
 
 section.title{
+    
 
 }
 
