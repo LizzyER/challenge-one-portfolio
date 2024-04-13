@@ -7,18 +7,20 @@ coloque nas sessões indicadas*/
     /*Se esforce para trabalhar com variáveis, é uma dica profissional valiosa*/
    --cor-de-fundo: #F5F5F5;
    --cor-de-link: #000;
-   /*cores do projeto 
-   fundo:FFE6E6
-   links: AD88C6
-   cor de fundo 2: E1AFD1
-   roxo mais escuro 7469B6 ver onde por  */
+   --cor-fundo-seundario: #E1AFD1;
+   --cor-botao: #AD88C6
+
+   /* cor dos icones skils e hobbie #7469B6   */
+}
+
+
 }
 
 body {
     box-sizing: border-box;
     background-color: var(--cor-de-fundo) ;
     font-family: 'Raleway';
-    margin: 0;
+    margin: 154px;
     padding: 0;
     line-height: 1;
 }
@@ -49,29 +51,75 @@ section.menu{
     padding: 32px;
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
-    
-}
+    justify-content: space-around;  
+    align-items: flex-start;
+    font-family:"Raleway",sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+} 
 
 .menu header{
     display: flex;
     align-items: center;
-    gap: 7px
+    gap: 32px;
+    font-family:"Raleway",sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
 }
 
 .menu__list{
     display: flex;
-    gap: 15px;
-    color: ;
+    gap: 32px;
 }
 
-/*Sessão Title*/
+
+/* Sessão Title */
 
 section.title{
+    padding: 61px;
+    display:flex;
     
-
 }
 
+div.title__div{
+    display:flex;
+    align-items: self-end;
+    justify-content: space-around;
+    flex-direction: row-reverse;
+    gap:17;
+}
+
+div.title__container{
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    
+}
+.title__bio{
+    font-family:"Raleway",sans-serif;
+    font-size: 54px;
+    font-weight: 700;
+    font-style: normal; 
+}
+.title__subsection{
+    font-family:"Raleway",sans-serif;
+    font-size: 22px; 
+    font-weight: 400;
+    font-style: normal;
+}
+
+.title__network{
+    padding: 0;
+    display: flex;
+    flex-direction: row;
+    gap: 32px;
+    font-family:"Raleway",sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    font-style:normal;
+}
 /*Sessão About*/
 
 section.about{
@@ -112,24 +160,24 @@ section.footer{
 utilize como referência os breakpoints @media abaixo*/
 
 /*Tablet*/
-@media (min-width: 768px) {
+/* @media (min-width: 768px) {
 
-/* Menu */
+/Menu 
 
-/*title*/
+title
 
-/*Skills*/
+Skills
 
-/*Hobbies*/
+Hobbies
 
-/*Experiências acadêmicas*/
+xperiências acadêmicas
 
-/*Expeirência profissional*/
+Expeirência profissional
 
-}
+} */
 
 /*Mobile*/
-@media (min-width: 425px) {
+/* @media (min-width: 425px) { */
 
 /*Menu*/
 
@@ -137,16 +185,16 @@ utilize como referência os breakpoints @media abaixo*/
 
 /*Sessão sobre*/
 
-/*Skills*/
+/* Skills
 
-/*Hobbies*/
+Hobbies
  
-/*Formação Acadêmica*/
+Formação Acadêmica
 
-/*Experiência Profissional*/
+Experiência Profissional
 
- /*Contato*/
+Contato
 
-/*Footer*/
+Footer
 
-}
+}  */
