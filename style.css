@@ -9,6 +9,9 @@ coloque nas sessões indicadas*/
    --cor-de-link: #000;
    --cor-fundo-seundario: #E1AFD1;
    --cor-botao: #AD88C6;
+   --cor-skiil-hobb: #ffffff;
+
+
 
    /* cor dos icones skils e hobbie #7469B6   */
 }
@@ -132,17 +135,97 @@ section.about{
     
 }
 
+div.about__container{
+    margin:0;
+    padding: 64px;
+
+
+}
+
 h3.about__title{
+    margin-top: 10px;
+    font-family:"Raleway",sans-serif;
+    font-size: 32px;
+    font-weight: 700;
+    font-style:normal;
+}
+p.about__paragraph{
+    font-family:"Raleway",sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    font-style:normal;
+}
+
+/* sessão skills*/
+
+section.skills{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+h3.skills__title{
+    margin-top: 10px;
     font-family:"Raleway",sans-serif;
     font-size: 32px;
     font-weight: 700;
     font-style:normal;
 }
 
+div.skills__line{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap:16px;
+    font-family:"Raleway",sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    font-style:normal;
+}
+
+h3.skills__title{
+    margin: 32px;
+    font-family:"Raleway",sans-serif;
+    font-size: 32px;
+    font-weight: 700;
+    font-style:normal;
+}
+
+div.hobbies__box{
+    display: flex;
+    justify-content:flex-start;
+    align-items: center;
+}
+
 /*Sessão Hobbies*/
 
 section.hobbies{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     
+}
+
+h3.hobbies__title{
+    margin-top: 10px;
+    font-family:"Raleway",sans-serif;
+    font-size: 32px;
+    font-weight: 700;
+    font-style:normal;
+}
+
+div.hobbies__line{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap:16px;
+    font-family:"Raleway",sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    font-style:normal;
 }
 
 /* Experiência Acadêmica*/
