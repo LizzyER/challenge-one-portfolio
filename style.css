@@ -5,9 +5,9 @@ coloque nas sessões indicadas*/
 :root{
     /*Insira a variavel das outras cores inspecionando o modelo do figma*/
     /*Se esforce para trabalhar com variáveis, é uma dica profissional valiosa*/
-   --cor-de-fundo: #F5F5F5;
+   --cor-de-fundo: #C6C4C6;
    --cor-de-link: #000;
-   --cor-fundo-seundario: #E1AFD1;
+   --cor-fundo-secundario: #E1AFD1;
    --cor-botao: #AD88C6;
    --cor-skiil-hobb: #ffffff;
 
@@ -21,7 +21,7 @@ coloque nas sessões indicadas*/
 
 body {
     box-sizing: border-box;
-    background-color: var(--cor-de-fundo) ;
+    background-color: var(--cor-de-fundo);
     font-family: 'Raleway';
     margin: 154px;
     padding: 0;
@@ -131,7 +131,7 @@ div.title__container{
 /*Sessão About*/
 
 section.about{
-    background-color: var(--cor-fundo-seundario);
+    background-color: var(--cor-fundo-secundario);
     
 }
 
@@ -159,6 +159,8 @@ p.about__paragraph{
 /* sessão skills*/
 
 section.skills{
+    box-sizing: border-box;
+    background-color: var(--cor-skiil-hobb);
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -193,7 +195,7 @@ h3.skills__title{
     font-style:normal;
 }
 
-div.hobbies__box{
+div.skills__box{
     display: flex;
     justify-content:flex-start;
     align-items: center;
@@ -228,10 +230,65 @@ div.hobbies__line{
     font-style:normal;
 }
 
+
+div.hobbies__box{
+    display: flex;
+    justify-content:flex-start;
+    align-items: center;
+}
+
+.hobbies__img,
+.skills__img{
+    display: flex;
+    justify-content: center;
+
+}
+
+.hobbies__name,
+.skills__name{
+    display: flex;
+    justify-content: center;
+}
+
+
 /* Experiência Acadêmica*/
 
 section.academic{
+    padding: 30px;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    background-color: var(--cor-fundo-secundario);
 
+
+}
+h2.academic__title{
+    display: flex;
+    justify-content: center;
+    font-family:"Raleway",sans-serif;
+    font-size: 32px;
+    font-weight: 700;
+    font-style:normal;
+}
+div.academic__courses{
+    display: flex;
+    justify-content:center;
+    flex-direction: row;
+}
+
+.academic__courses__item__title{
+    font-family:"Raleway",sans-serif;
+    font-size: 22px;
+    font-weight: 700;
+    font-style:normal;
+}
+
+.academic__courses__item__subtitle{
+    font-family:"Raleway",sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    font-style:normal;
 }
 
 /* experiência*/
