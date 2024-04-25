@@ -156,9 +156,10 @@ p.about__paragraph{
     font-style:normal;
 }
 
-/* sessão skills*/
+/* sessão skills e hobbies*/
 
-section.skills{
+section.skills, 
+section.hobbies{
     box-sizing: border-box;
     background-color: var(--cor-skiil-hobb);
     display: flex;
@@ -168,15 +169,18 @@ section.skills{
 
 }
 
-h3.skills__title{
+h3.skills__title, 
+.hobbies__title{
     margin-top: 10px;
+    margin: 32px;
     font-family:"Raleway",sans-serif;
-    font-size: 32px;
     font-weight: 700;
+    font-size: 32px;
     font-style:normal;
-}
+    }
 
-div.skills__line{
+div.skills__line,
+.hobbies__line{
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -187,15 +191,10 @@ div.skills__line{
     font-style:normal;
 }
 
-h3.skills__title{
-    margin: 32px;
-    font-family:"Raleway",sans-serif;
-    font-size: 32px;
-    font-weight: 700;
-    font-style:normal;
-}
 
-div.skills__box{
+
+div.skills__box,
+.hobbies__box{
     display: flex;
     justify-content:flex-start;
     align-items: center;
@@ -203,7 +202,7 @@ div.skills__box{
 
 /*Sessão Hobbies*/
 
-section.hobbies{
+/*section.hobbies{
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -235,7 +234,7 @@ div.hobbies__box{
     display: flex;
     justify-content:flex-start;
     align-items: center;
-}
+}*/
 
 .hobbies__img,
 .skills__img{
@@ -294,6 +293,12 @@ div.academic__courses{
 /* experiência*/
 
 section.experience{
+    margin: 32px 0px 32px 0px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+
 
 }
 
