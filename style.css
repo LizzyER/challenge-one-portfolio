@@ -2,6 +2,13 @@
 /*Já deixaremos o básico de reset de estilos. Caso queira adicionar mais informações
 coloque nas sessões indicadas*/
 
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    }
+
 :root{
     /*Insira a variavel das outras cores inspecionando o modelo do figma*/
     /*Se esforce para trabalhar com variáveis, é uma dica profissional valiosa*/
@@ -158,15 +165,22 @@ p.about__paragraph{
 
 /* sessão skills e hobbies*/
 
-section.skills, 
-section.hobbies{
-    box-sizing: border-box;
+section.skills{
+    margin-top: 32px;
     background-color: var(--cor-skiil-hobb);
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+}
 
+section.hobbies{
+    margin: 88px 0px 88px 0px;
+    background-color: var(--cor-skiil-hobb);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 h3.skills__title, 
